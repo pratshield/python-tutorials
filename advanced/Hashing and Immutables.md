@@ -42,5 +42,5 @@ Immutable objects are the type of objects that cannot be modified once they are 
 - A tuple is hashable only if all its elements are hashable
 - User-defined types are hashable by default because their hash value is their id()
 
-[!Important]
+> [!Important]
 > Although elements of sets are immutable, but set itself is mutable, that's why sets are not hashable
